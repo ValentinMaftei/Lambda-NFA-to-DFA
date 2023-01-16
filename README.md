@@ -10,7 +10,7 @@ Daca exista mai multe trasee posibile, se va afisa doar primul gasit.
 
 Datele de intrare contin pe prima linie n (numarul de noduri) si m (numarul de tranzitii). 
 Pe urmatoarele m linii sunt descrise tranzitiile din fiecare automat.
-Pe linia m + 2 se afla indicele starii initiale. Pe linia m + 3 se afla un numar nf (numarul de stari finale) urmat de indicii starilor finale respective, separate prin spatiu. Linia m+ 4 contine ni, numarul de string-uri de input, iar pe urmatoarele ni linii, string-urile respective.
+Pe linia m + 2 se afla indicele starii initiale. Pe linia m + 3 se afla un numar nf (numarul de stari finale) urmat de indicii starilor finale respective, separate prin spatiu.
 
 Datele de iesire, pentru fiecare string: contin DA, daca cuvantul este acceptat si un traseu posibil, respectiv NU, in caz contrar.
 
@@ -52,8 +52,7 @@ If there are multiple possible routes, only the first one found will be displaye
 
 The input data contains on the first line n (the number of nodes) and m (the number of transitions).
 On the following m lines, the transitions of each automaton are described.
-On line m + 2 is the index of the initial state. On line m + 3 is a number nf (the number of final states) followed by the indices of the final states, separated by a space. Line m+ 4 contains ni, the number of input strings, and on the following ni lines, the strings themselves.
-
+On line m + 2 is the index of the initial state. On line m + 3 is a number nf (the number of final states) followed by the indices of the final states, separated by a space. 
 The output data, for each string: contains YES, if the word is accepted and a possible route, or NO, otherwise.
 
 Example input data in file:
